@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+.color-picker-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    margin: 50px;
+    font-size: 80px;
+}
+
+.color-display{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(114, 129, 129);
+    border-radius: 25px;
+    transition: 0.25s ease;
+}
